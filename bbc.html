@@ -59,7 +59,7 @@
             #bell {
 
                 height: 25px;
-                margin: 9px 8px;
+                margin: 9px 8px 0 8px;
                 
             }
 
@@ -74,7 +74,6 @@
             #bell-div {
 
                 float:left;
-
             }
 
             .topbar-menu {
@@ -105,6 +104,119 @@
             #magnifying-glass {
                 height: 26px;
                 margin-top: 5px;
+            }
+
+            .clear {
+
+                clear: both;
+
+            }
+
+            #menu-bar-container {
+
+                background-color: #bb1919;
+                width: 100%;
+                height: 70px;
+                border-top:1px solid #CCCCCC;
+                
+            }
+
+            #menu-bar {
+
+                width: 1000px;
+                margin:0 auto;
+
+            }
+
+            h1 {
+
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: normal;
+                padding-top: 10px;
+                float: left;
+
+            }
+
+            #local-news{
+
+                float: right;
+                width: 250px;
+                border: 1px #bb4545 solid;
+                padding: 5px 5px 0 10px;
+                margin: 5px 10px 0 0;                
+                
+                
+            }
+
+            #local-news a{
+
+                color:white;
+                text-decoration: none;
+                font-size: 30px;
+                position: relative;
+                top: -8px;
+
+            }
+
+            #local-news a:hover {
+
+                text-decoration: underline;
+
+            }
+
+            #local-news img {
+
+                height: 40px;
+
+            }
+
+            #menu-bar-2-container {
+
+                background-color: #a91717;
+                width: 100%;
+
+            }
+
+            #menu-bar-2 {
+
+                width: 1000px;
+                margin: 0 auto;
+                height: 30px; 
+
+            }        
+
+            #menu-bar-2 a {
+
+                color: white;
+                text-decoration: none;
+                margin-top: 5px;
+                padding: 0 10px;
+                border-right: 1px solid #bb4545;
+                font-size: 16px;
+                position: relative;
+                top: 7px;
+
+            }    
+
+            #menu-bar-2 a:hover {
+
+                text-decoration: underline;
+
+            }
+
+            .no-border {
+
+                border: none !important;
+
+            }
+
+            #down-arrow {
+                height: 10px;
+                position: relative;
+                top: 6px;
             }
 
         </style>
@@ -185,6 +297,61 @@
                 <input id="search-box" type="text" value="Search">
 
                 <input type="image" id="magnifying-glass" src="images/magnifying-glass.png">
+
+            </div>
+
+        </div>
+
+        <div class="clear"></div>
+        
+        <div id="menu-bar-container">
+
+            <div id="menu-bar">
+
+                <h1>NEWS</h1>
+
+                <div id="local-news" >
+
+                    <a href="">Find local news</a>
+
+                    <img src="images/pointer.png">
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="menu-bar-2-container">
+
+                <div id="menu-bar-2">
+
+                    <a href="">Home</a>
+
+                    <a href="">UK</a>
+
+                    <a href="">World</a>
+
+                    <a href="">Business</a>
+
+                    <a href="">Politics</a>
+
+                    <a href="">Science</a>
+
+                    <a href="">Health</a>
+
+                    <a href="">Education</a>
+
+                    <a href="">Entertainment & Arts</a>
+
+                    <a href="">Video & Audio</a>
+
+                    <a href="" class="no-border">More</a>
+
+                    <img src="images/down-arrow.png" id="down-arrow">
+
+                </div>
+
 
             </div>
 
